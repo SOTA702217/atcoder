@@ -11,6 +11,7 @@ for i in range(N):
       ball.append(ball[len(ball)-1]+1)
       ball.pop(len(ball)-2)
       ball.pop(len(ball)-2)
+print(ball)
       
 
 print(len(ball))
